@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout - MANORÉ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="order-tracking.html">Track Your Order</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <form>
+      <label>Name:</label>
+      <input type="text" required>
+
+      <label>Address:</label>
+      <textarea required></textarea>
+
+      <label>Phone:</label>
+      <input type="text" required>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 MANORÉ. All rights reserved.</p>
+  </footer>
+</body>
+</html>

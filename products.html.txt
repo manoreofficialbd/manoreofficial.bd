@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products - MANORÉ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Products</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="order-tracking.html">Track Your Order</a>
+    </nav>
+  </header>
+
+  <div class="container products">
+    <div class="product">
+      <h2>Watch</h2>
+      <p>Stylish men’s watch</p>
+      <button onclick="addToCart('Watch', 500)">Add to Cart</button>
+      <a href="product1.html">View Details</a>
+    </div>
+
+    <div class="product">
+      <h2>Leather Wallet</h2>
+      <p>Premium leather wallet</p>
+      <button onclick="addToCart('Leather Wallet', 1000)">Add to Cart</button>
+      <a href="product2.html">View Details</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <a href="cart.html"><button>Go to Cart</button></a>
+  </div>
+
+  <footer>
+    <p>© 2025 MANORÉ. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

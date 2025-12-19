@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leather Wallet - MANORÉ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Leather Wallet</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="order-tracking.html">Track Your Order</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Premium Leather Wallet</h2>
+    <p>High-quality leather wallet with multiple compartments.</p>
+    <button onclick="addToCart('Leather Wallet', 1000)">Add to Cart</button>
+    <a href="products.html"><button>Back to Products</button></a>
+  </div>
+
+  <footer>
+    <p>© 2025 MANORÉ. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

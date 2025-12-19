@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Watch - MANORÉ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Watch</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="order-tracking.html">Track Your Order</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Stylish Watch</h2>
+    <p>Elegant design with brown leather strap and golden dial accents.</p>
+    <button onclick="addToCart('Watch', 500)">Add to Cart</button>
+    <a href="products.html"><button>Back to Products</button></a>
+  </div>
+
+  <footer>
+    <p>© 2025 MANORÉ. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

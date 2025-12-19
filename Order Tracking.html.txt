@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Tracking - MANORÉ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Order Tracking</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="order-tracking.html">Track Your Order</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <label for="orderId">Enter Order ID:</label>
+    <input type="text" id="orderId" placeholder="e.g. 1001">
+    <button onclick="trackOrder()">Track Order</button>
+    <p id="status"></p>
+  </div>
+
+  <footer>
+    <p>© 2025 MANORÉ. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const orders = {
+      "1001": "Shipped via DHL",
+      "1002": "In Transit via FedEx",
+      "1003": "Delivered",
+      "1004": "Pending"
+    };
+
+    function trackOrder() {
+      const id = document.getElementById('orderId').value.trim();
+      const status = orders[id] || "Order ID not found";
+      document.getElementById('status').innerText = status;
+    }
+  </script>
+</body>
+</html>

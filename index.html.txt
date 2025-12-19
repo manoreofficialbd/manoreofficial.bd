@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MANORÉ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MANORÉ</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="order-tracking.html">Track Your Order</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Welcome to MANORÉ</h2>
+    <p>Shop stylish men’s products easily.</p>
+    
+    <div class="buttons">
+      <a href="products.html"><button>View Products</button></a>
+      <a href="order-tracking.html"><button>Track Your Order</button></a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 MANORÉ. All rights reserved.</p>
+  </footer>
+</body>
+</html>
